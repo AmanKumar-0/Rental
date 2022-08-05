@@ -1,0 +1,206 @@
+.view > img{
+    height:60%;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.view{
+background-color: white;
+border-radius: 12px 12px 0 0;
+max-height: 320px;
+margin-top: 20px;
+position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    bottom: 40%;
+    left: -3%;
+    background: purple;
+    border-radius: 3px;
+    color: white;
+    width: 60px;
+    padding: 2px;
+}
+
+.view_price_tag{
+    position: relative;
+    padding-left: 12px;
+    text-align: left;
+    font-weight: bolder;
+    border-radius: 3px;
+    display: flex;
+    
+}
+.sold_price{
+    font-weight: bolder;
+    color: purple;    
+}
+.price_month{
+    color: gray;
+    font-weight: bold;
+}
+.view > p{
+    margin: 0px;
+    padding-left: 12px;
+    text-align: left;
+    color: grey;
+    font-weight: bold;
+}
+.view >h2{
+    margin:0;
+    padding-left: 12px;
+    text-align: left;
+
+}
+.meta_details{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid gray;
+    max-width: 95%;
+    margin: auto;
+    /* padding-top: 5px; */
+    margin-top: 5px;
+    color: grey;
+    font-weight: bold;
+}
+.meta_details > .fa-solid{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 5px; */
+    /* font-weight: 100; */
+    margin: auto;
+    margin-left: 5px;
+}
+
+ .btn_submit{
+    
+    color: white;
+    border-radius: 4px;
+    background: purple;
+    outline: none;
+    border: none;
+    margin: auto;
+    /* padding: 14px -8px; */
+    padding: 12px 14px;
+}
+ 
+ .search_form > form{
+    /* padding: 10px; */
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+    border-radius: 6px;
+} 
+
+.date_time{
+    /* margin-top: -18px; */
+    /* height: 50px; */
+    background: none;
+    outline: none;
+    border: none;
+}
+.date > h4{
+    margin-top: 5px;
+    color: lightgrey;
+    /* margin: auto; */
+}
+
+.date:hover  .date_time {
+    /* NEW */
+    /* display: flex; */
+    display: block;
+}
+  .date{
+    margin: auto;
+ text-align: left;  
+
+}
+  .date_time {
+    display: none;
+    margin-top: 12px;
+    background: #edf5ff;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+  }
+  .date > p > h3{
+    margin: 0px;
+  }
+
+  .price > p{
+    margin: 0px;
+  }
+  .price > h4{
+    margin: auto;
+    color: lightgrey;
+  }
+  .price{
+    padding-left: 10px ;
+    border-left: 2px solid lightgray;
+    margin: auto;
+  }
+
+  .price:hover  .price_hover {
+    /* NEW */
+    display: block;
+}
+  
+  .price_hover {
+    display: none;
+    margin-top: 6px;
+    margin-left: -32px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+  }
+
+.broker{
+    /* display: flex;
+    flex-direction: column; */
+    border-left: 2px solid lightgray;
+    padding-left: 10px;
+    text-align: left;
+    margin: auto;
+    max-width: 60px;
+    color: lightgrey;
+    /* overflow: hidden; */
+}
+.broker > h4{
+    margin: auto;
+}
+
+
+.broker_hover{
+    margin: auto;
+    background:none;
+    border: none;
+    outline: none;
+    max-width: 80px;
+}
+
+.bed{
+    /* display: flex; */
+    border-left: 2px solid lightgray;
+    padding-left: 5px;
+    margin: auto;
+}
+.bed_input{
+    background:none;
+    border: none;
+    outline: none;
+    max-width: 50px;
+}
+.date > h4{
+    margin-bottom: 0px;
+    height: 10px;
+}
+.bed > h4{
+    margin: auto;
+    padding-left: 5px;
+    color: lightgrey
+}
